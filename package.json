@@ -1,0 +1,13 @@
+{
+  "name": "snake-app",
+  "version": "1.0.0",
+  "description": "Minimal Snake game with global highscore and player profiles",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

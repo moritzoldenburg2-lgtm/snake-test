@@ -1,3 +1,4 @@
+ACHTUNG der ganze Inhalt ist zu 100% von KI erstellt wordem
 # 🐍 Snake App
 
 Minimale Snake-Web-App mit globalem Highscore und Spielerprofilen.

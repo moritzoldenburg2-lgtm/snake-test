@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snake</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="layout">
+    <section class="game-panel">
+      <h1>🐍 Snake</h1>
+      <div id="profile-bar" class="hidden">
+        <span>Spieler: <strong id="player-name"></strong></span>
+        <span>Best: <strong id="player-best">0</strong></span>
+        <span>Spiele: <strong id="player-games">0</strong></span>
+        <button id="logout-btn">Wechseln</button>
+      </div>
+      <canvas id="board" width="400" height="400"></canvas>
+      <div id="status">Score: <strong id="score">0</strong></div>
+      <div id="overlay" class="overlay">
+        <div class="overlay-card">
+          <h2 id="overlay-title">Willkommen</h2>
+          <p id="overlay-text">Gib deinen Spielernamen ein, um zu spielen.</p>
+          <input id="name-input" maxlength="20" placeholder="Spielername" autocomplete="off" />
+          <button id="start-btn">Spielen</button>
+          <p class="hint">Pfeiltasten oder WASD zum Steuern · Leertaste für Pause</p>
+        </div>
+      </div>
+    </section>
+    <aside class="leaderboard">
+      <h2>🏆 Globale Highscores</h2>
+      <ol id="leaderboard-list"></ol>
+    </aside>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
